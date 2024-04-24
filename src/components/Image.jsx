@@ -6,8 +6,8 @@ function Icon() {
 
     const [index, setIndex] = useState(0)
     const [pathIndex, setPathIndex] = useState(0)
-    const ids = ["#PhysicalInspection", "#DocumentVerification", "#CarLoan", "#ExtendedWarranty", "#InsuranceTransfer", "#RCTransfer"]
-    const paths = ["#Vector_9", "#Vector_201", "#Vector_3", "#Vector_6", "#Vector_12", "#Vector_15"]
+    const ids = ["#DocumentVerification", "#CarLoan", "#ExtendedWarranty", "#InsuranceTransfer", "#RCTransfer", "#PhysicalInspection"]
+    const paths = ["#Vector_201", "#Vector_3", "#Vector_6", "#Vector_12", "#Vector_15", "#Vector_9"]
 
     useEffect(() => {
         const intervalOne = setInterval(() => {
