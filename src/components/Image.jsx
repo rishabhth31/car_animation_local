@@ -17,7 +17,7 @@ function Icon() {
 
             if (indexValue === 1) {
                 gsap.to(ids[Number(indexValue)], {
-                    strokeWidth: "2.5", duration: "2"
+                    strokeWidth: "2.5", duration: "2", ease: "power2.inOut"
                 })
             } else {
                 gsap.to(ids[Number(indexValue)], {
