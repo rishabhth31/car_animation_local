@@ -15,7 +15,7 @@ function Icon() {
             let indexValue = (index === 0) ? ids.length - 1 : index - 1
             let pathValue = (pathIndex === 0) ? paths.length - 1 : pathIndex - 1
 
-            if (indexValue === 2) {
+            if (indexValue === 1) {
                 gsap.to(ids[Number(indexValue)], {
                     strokeWidth: "2.5", duration: "2"
                 })
