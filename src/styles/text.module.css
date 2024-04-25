@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     gap: 8px;
-    width: 100%;
+    min-width: 372px;
     padding: 0px;
 }
 
@@ -36,7 +36,7 @@
             align-items: center;
             text-align: center;
             gap: 12px;
-            width: 1033px;
+            max-width: 1033px;
             padding: 0;
         }
         
