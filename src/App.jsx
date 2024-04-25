@@ -1,12 +1,12 @@
 import Text from "./components/Text";
 import Icon from "./components/Image"
-import "./styles/app.css"
+import styles from "./styles/app.module.css"
 
 const App = () => {
   return (
-    <div className="parent">
+    <div className={styles.parent}>
       <Text></Text>
-      <div className="image">
+      <div className={styles.image}>
         <Icon></Icon>
       </div>
     </div>
