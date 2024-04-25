@@ -3,12 +3,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap:8px;
+    gap: 8px;
     width: 375px;
-    padding:0px,
-        16px,
-        0px,
-        16px;
+    padding: 0px 16px;
 }
 
 .heading{
@@ -40,30 +37,27 @@
             text-align: center;
             gap: 12px;
             width: 1033px;
-            padding:0;
+            padding: 0;
         }
         
         .heading {
             font-size: 40px;
             line-height: 48px;
             font-weight: 400;
-            --tw-text-opacity: 1;
-            color: rgb(29 29 31 / var(--tw-text-opacity));
+            color: #1D1D1F;
         }
         
         .content {
             font-size: 20px;
             line-height: 28px;
             font-weight: 400;
-            --tw-text-opacity: 1;
-            color: rgb(88 90 90 / var(--tw-text-opacity));
+            color: #585A5A;
         }
         
         .bold {
             font-size: 24px;
             line-height: 32px;
             font-weight: 500;
-            --tw-text-opacity: 1;
-            color: rgb(74 74 76 / var(--tw-text-opacity));
+            color: #4A4A4C;
         }
 }
